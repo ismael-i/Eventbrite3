@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Salut <%= @attendance.customer.first_name %> <%= @attendance.customer.last_name %> ,</h1>
+    <p>
+      Tu t'es inscrit sur eventbrite.mg en utilisant l'e-mail suivant : <%=@attendance.customer.email %>.
+    </p>
+    <p>
+        Vous etes invités à participer à l'evenement <%= @attendance.event.title %> qui commence le <%= @attendance.event.start_date %>,
+        il dure <%= @attendance.event.duration %> minutes et se tiendra à <%= @attendance.event.location %>.
+    </p>
+    <p>
+      Pour accéder à ton espace client, connecte-toi via : <%= @url %>.
+    </p>
+    <p> À très vite sur eventbrite.mg !
+  </body>
+</html>

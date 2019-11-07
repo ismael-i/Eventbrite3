@@ -1,22 +1,22 @@
 class EventValidator < ActiveModel::Validator
     def validate(record)
-        if record.start_date < DateTime.now
-            record.errors[:start_date] << "La date est déja passé"
-        end 
-        if record.duration % 5 != 0
-            record.errors[:duration] << "Mettez chiffre multiple de 5"
-        end
-        if record.title.length < 5 || record.title.length > 140
-            record.errors[:title] << "Mettez un caractere 5 à 140"
-        end
-        if record.description.length < 20 || record.description.length > 1000
-            record.errors[:description] << "La description est entre 20  à 1000 caractere "
-        end
-         if record.price < 1 
-            record.errors[:price] << "Il n'y a pas d'evenement gratuit "
-         end
-         if record.price > 1000 
-            record.errors[:price] << "prix trop élevé"
-         end
+       if  record.start_date < DateTime.now
+        record.errors[:start_date]<< "Given date is passed"
+       end
+       if record.duration % 5 != 0
+        record.errors[:duration] << "Duration should be a multiple of 5"
+       end
+       if record.price < 1 
+        record.errors[:price] << "There's not FREE event"
+       end
+       if record.price > 1000 
+        record.errors[:price] << "It's too expensive"
+       end
+       if record.title.length < 5 || record.title.length > 140
+        record.errors[:title] << "title should be under 5 and 140 characters"
+       end
+       if record.description.length < 5 || record.description.length > 140
+        record.errors[:description] << "description should be under 20 and 1000 characters"
+       end
     end
 end

@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 for index in 1..5 do 
     user = User.create(
         email: "Babakoto#{index}@yopmail.com",
@@ -28,7 +29,7 @@ for index in 2..5 do
     attendance = Attendance.create(
         stripe_customer_id: Faker::Bank.iban,
         event_id: 1,
-        customer_id: index,
+        customer_id: 12,
         admin_id: 1
     )
 end
