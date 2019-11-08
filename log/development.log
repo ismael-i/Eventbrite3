@@ -2785,3 +2785,2194 @@ To customize the errors styles please run `rails g devise:views` and modify the
 Completed 200 OK in 139ms (Views: 112.9ms | ActiveRecord: 6.9ms | Allocations: 193011)
 
 
+Started GET "/" for 127.0.0.1 at 2019-11-08 09:47:47 +0300
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 592)
+Completed 200 OK in 1594ms (Views: 1577.9ms | ActiveRecord: 0.0ms | Allocations: 1251479)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 09:49:05 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 425)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 6036)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 09:54:15 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 417)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 5998)
+
+
+Started GET "/new_user_session_path" for 127.0.0.1 at 2019-11-08 09:54:21 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/new_user_session_path"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/new_user_session_path" for 127.0.0.1 at 2019-11-08 09:55:01 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/new_user_session_path"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-08 09:55:20 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 424)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 6051)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 09:55:24 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 622)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 144.3ms | Allocations: 179930)
+Completed 200 OK in 199ms (Views: 160.3ms | ActiveRecord: 10.6ms | Allocations: 193354)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 09:56:13 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147539608380 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 124)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1586)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms | Allocations: 7022)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 09:56:41 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 523)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1907)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 8137)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 09:56:44 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147537415960 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 80)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1444)
+Completed 200 OK in 59ms (Views: 47.8ms | ActiveRecord: 0.0ms | Allocations: 6811)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 09:56:58 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147537415960 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 34.9ms | Allocations: 1091)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms | Allocations: 5792)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 09:57:03 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147537415960 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1092)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 5809)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:01:05 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147531407820 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 468)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1974)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 8128)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:01:47 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147536628760 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 468)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1970)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 8113)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:02:49 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147537556440 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 468)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1970)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 8102)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:03:52 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147539097320 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 468)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1970)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 8104)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:05:33 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147539598860 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 468)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1970)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 8114)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:14:32 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147539598860 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 80)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1099)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 5806)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:14:35 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147539598860 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1091)
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 5783)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:14:38 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__1360233481378235746_70147539598860 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1091)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 5803)
+
+
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (31.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1952451607192789710)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20191107215734)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mDROP INDEX  "index_users_on_reset_password_token"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP INDEX  "index_users_on_email"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "remember_created_at"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "reset_password_sent_at"[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "reset_password_token"[0m
+  [1m[36mprimary::SchemaMigration Destroy (0.9ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20191107215734"]]
+  [1m[35m (30.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1952451607192789710)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1952451607192789710)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20191107215734)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_token" character varying[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_sent_at" timestamp[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "remember_created_at" timestamp[0m
+  [1m[35m (63.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (61.4ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191107215734"]]
+  [1m[35m (24.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1952451607192789710)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:20:21 +0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__4577106071925782529_70314524376140 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 537)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 140.5ms | Allocations: 180018)
+Completed 200 OK in 1601ms (Views: 1560.1ms | ActiveRecord: 7.5ms | Allocations: 1438755)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 10:20:28 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 215)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1777)
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 7452)
+
+
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:27:37 +0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__3883576809554723593_70324523381000 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 537)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 141.2ms | Allocations: 180017)
+Completed 200 OK in 1687ms (Views: 1646.5ms | ActiveRecord: 5.3ms | Allocations: 1438780)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-11-08 10:28:42 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"B5b2v2tMIp+EjcziIydQKWxV8N56/1q+9p28al03ldeRnETb742TPzcBMdHFa0MoE51jEmFiz61O0Vv2F9AUwg==", "user"=>{"email"=>"ismaelrazafindramboly@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ismaelrazafindramboly@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "ismaelrazafindramboly@gmail.com"], ["encrypted_password", "$2a$11$7uD61QVu0lTWWj0x0i19meJ4VRWa6Q9O2AcZpfudrkb/fUxDhKXXK"], ["created_at", "2019-11-08 07:28:42.394435"], ["updated_at", "2019-11-08 07:28:42.394435"]]
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (Duration: 0.7ms | Allocations: 179)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (Duration: 0.7ms | Allocations: 150)
+UserMailer#welcome_email: processed outbound mail in 12.6ms
+Delivered mail 5dc5192a66fb7_2469338a4c042490@tsiory-HPrdx.mail (7299.7ms)
+Date: Fri, 08 Nov 2019 10:28:42 +0300
+From: tsiory.rktmhnn@gmail.com
+To: ismaelrazafindramboly@gmail.com
+Message-ID: <5dc5192a66fb7_2469338a4c042490@tsiory-HPrdx.mail>
+Subject: Bienvenue chez nous !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5dc5192a6530e_2469338a4c042383";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5dc5192a6530e_2469338a4c042383
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+U2FsdXQgICBldCBiaWVudmVudWUgY2hleiBub3VzICENCj09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT0NCiANClR1IHQnZXMgaW5zY3JpdCBzdXIgZXZlbnRicml0ZS5tZyBlbiB1
+dGlsaXNhbnQgbCdlLW1haWwgc3VpdmFudCA6IGlzbWFlbHJhemFmaW5kcmFt
+Ym9seUBnbWFpbC5jb20uDQogDQpQb3VyIGFjY8OpZGVyIMOgIHRvbiBlc3Bh
+Y2UgY2xpZW50LCBjb25uZWN0ZS10b2kgdmlhIDogaHR0cDovL2V2ZW50YnJp
+dGUubWcvbG9naW4uDQogDQrDgCB0csOocyB2aXRlIHN1ciBldmVudGJyaXRl
+Lm1nICENCg==
+
+----==_mimepart_5dc5192a6530e_2469338a4c042383
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />=0D
+  </head>=0D
+  <body>=0D
+    <h1>Salut   et bienvenue chez nous !</h1>=0D
+    <p>=0D
+      Tu t'es inscrit sur eventbrite.mg en utilisant l'e-mail suivant : i=
+smaelrazafindramboly@gmail.com.=0D
+    </p>=0D
+    <p>=0D
+      Pour acc=C3=A9der =C3=A0 ton espace client, connecte-toi via : http=
+://eventbrite.mg/login.=0D
+    </p>=0D
+    <p> =C3=80 tr=C3=A8s vite sur eventbrite.mg !=0D
+  </body>=0D
+</html>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5dc5192a6530e_2469338a4c042383--
+
+  [1m[35m (30.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 7608ms (ActiveRecord: 32.5ms | Allocations: 30078)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 10:28:49 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1449)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.8ms | Allocations: 6735)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 10:33:11 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pZpqytD0nL6Ev2Cfak2hcKz7GnCTETDNSjs0RCXHlmVrVy6CymWnx1urJbmQi5LPUo5pknLdr0dSMffj6Qi7Fw=="}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 1.4ms | Allocations: 2747)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 10:33:11 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 159)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 4684)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 10:33:17 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 214)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1770)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 7219)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2019-11-08 10:33:19 +0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 142)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1334)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 6698)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 10:33:21 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1084)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 5848)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2019-11-08 10:33:23 +0300
+Processing by Devise::PasswordsController#new as HTML
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 131)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 737)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 5417)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:33:25 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__3883576809554723593_70324523381000 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 80)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1103)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 5821)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 10:47:46 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__3883576809554723593_70324546331900 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.9ms | Allocations: 468)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1971)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 8228)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 10:47:56 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1375)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 6873)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-08 10:48:09 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"6MkJOH1okSZXrkVcJlytCvQ171YK/uC2wLOxgcY+qbZv4am3vKcMoYjBsc6VTik4pjvjSSRgHy2p8fRaZ/QOuQ==", "user"=>{"email"=>"manolotsoadaniel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "manolotsoadaniel@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 283ms (ActiveRecord: 1.5ms | Allocations: 6270)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 10:48:09 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1287)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.5ms | Allocations: 6493)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2019-11-08 10:48:28 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_out" for 127.0.0.1 at 2019-11-08 10:52:42 +0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 10:53:13 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LGNhBgaTO7ie75mfdHHvShFlDKvTRo9NTofe5Z79PKPyIGeONFfCCBU8qlkv3YiXfLdA9TdFfv4K4dQZA0aXiQ=="}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 255ms (ActiveRecord: 6.3ms | Allocations: 187814)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 10:53:14 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 455)
+Completed 200 OK in 1354ms (Views: 1351.9ms | ActiveRecord: 0.0ms | Allocations: 1250755)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 10:54:45 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.3ms | Allocations: 617)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.9ms | Allocations: 3019)
+Completed 200 OK in 47ms (Views: 27.5ms | ActiveRecord: 0.0ms | Allocations: 11221)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-08 10:54:56 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ObGrG1JGEWqae0GbeiGTucTZ+5fsLpaqLIn0RKAkSWmBnBZaLaEISuNDu/YT6IRYulA4Z22vnYq5ORhD4lF/+A==", "user"=>{"email"=>"manolotsoadaniel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "manolotsoadaniel@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 244ms (ActiveRecord: 0.6ms | Allocations: 4567)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 10:54:57 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1033)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.4ms | Allocations: 5586)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 10:59:48 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1285)
+Completed 200 OK in 26ms (Views: 22.9ms | ActiveRecord: 0.6ms | Allocations: 6952)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 10:59:53 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"buly2noROyde0oopBMbtFMCyWKPrkjMjEryJMoA11y1mTIE7tn4gp6qPfMTjgcxQPerFMEkP5rnO24Afh/dxnQ=="}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.7ms | Allocations: 2196)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 10:59:53 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 159)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 4710)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 11:00:07 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 523)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1903)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 7785)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-08 11:00:16 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"3uJ9/zd9Wtk0oycFDlgMbTdRcxJU7gDNhth0V2OK6E7uAO9k8NRjHb74G7SzdEvlKD9H6rhEJ2hUT3vr5ZGhxA==", "user"=>{"email"=>"manolotsoadaniel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "manolotsoadaniel@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 235ms (ActiveRecord: 0.6ms | Allocations: 3858)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:00:16 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1028)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.5ms | Allocations: 5568)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 11:00:36 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7s3/dLe4xl/sgOsU07tXHzVO69E20wwJ7EaYZLhVHZYEqtXp7P7zFWwk7+Hdyai1PODUA4RgGONd4zmdlcxePQ=="}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 0.6ms | Allocations: 2192)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:00:36 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 154)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 4716)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-08 11:01:01 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"3uJ9/zd9Wtk0oycFDlgMbTdRcxJU7gDNhth0V2OK6E7uAO9k8NRjHb74G7SzdEvlKD9H6rhEJ2hUT3vr5ZGhxA==", "user"=>{"email"=>"manolotsoadaniel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 802)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+devise (4.7.1) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (6.0.1) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-08 11:01:18 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"3uJ9/zd9Wtk0oycFDlgMbTdRcxJU7gDNhth0V2OK6E7uAO9k8NRjHb74G7SzdEvlKD9H6rhEJ2hUT3vr5ZGhxA==", "user"=>{"email"=>"manolotsoadaniel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms | Allocations: 795)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:217:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:249:in `handle_unverified_request'
+devise (4.7.1) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+actionpack (6.0.1) lib/action_controller/metal/request_forgery_protection.rb:244:in `verify_authenticity_token'
+activesupport (6.0.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.1) lib/active_support/callbacks.rb:201:in `block (2 levels) in halting'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.1) lib/active_support/callbacks.rb:202:in `block in halting'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.1) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (6.0.1) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:01:28 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 152)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 4714)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 11:01:35 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1079)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 5898)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-08 11:01:52 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"0gtKzVuCjwtRVsh5grM9Y83yvs+B3LfIA886bibuEp6hgI/IpsMO1+rv52PNbM5mX67cK6J5nnK/dKwTQusy7Q==", "user"=>{"email"=>"manolotsoadaniel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "manolotsoadaniel@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 242ms (ActiveRecord: 1.1ms | Allocations: 2756)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:01:52 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1018)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.3ms | Allocations: 5548)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 11:02:34 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bhaRjDKWnb42kerYXnvCHw/3b7GS0Wh8LLxRAfQJf1rhXt36/ctSdrpxoTDGX+6w/tBNQkDwpHyVccPIF3npGw=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.4ms | Allocations: 2190)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:02:34 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 152)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 4720)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 11:02:44 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 134)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1075)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 5924)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-08 11:02:50 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"N79FTLlmkM+5l1waLp3GRu6NelYQR3MhmIJie51XaAqrKZbR+FB8GWp/ciwFKHK3vKRSkI2kFsq49e+ANZL5xg==", "user"=>{"email"=>"manolotsoadaniel@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "manolotsoadaniel@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 234ms (ActiveRecord: 0.7ms | Allocations: 2760)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:02:51 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1018)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.5ms | Allocations: 5556)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:14:16 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1408)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.9ms | Allocations: 7076)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:14:41 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1151)
+Completed 200 OK in 59ms (Views: 51.6ms | ActiveRecord: 5.7ms | Allocations: 5702)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:14:51 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1019)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.5ms | Allocations: 5555)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:15:37 +0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 39.5ms | Allocations: 9279)
+Completed 200 OK in 1517ms (Views: 1498.0ms | ActiveRecord: 7.2ms | Allocations: 1260253)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:16:43 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1310)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.6ms | Allocations: 6988)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:16:50 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1172)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 1.1ms | Allocations: 5713)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:17:09 +0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/static_pages/index.html.erb:5
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 39.3ms | Allocations: 9279)
+Completed 200 OK in 1474ms (Views: 1449.3ms | ActiveRecord: 9.1ms | Allocations: 1260222)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:22:30 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 90)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.6ms | Allocations: 6681)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:23:34 +0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 205)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 1580ms (Views: 1553.4ms | ActiveRecord: 9.0ms | Allocations: 1259910)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 11:23:52 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ii19eG5w/7FDNaMq2VvJV9xWrbCG0MRtuuavtH5H62QXn42iilsp79O7wly8/ipTZTkJxpN1sutyQ1L9ptoobQ=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 125ms (ActiveRecord: 0.5ms | Allocations: 179874)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:23:52 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 4631)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 11:27:12 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.5ms | Allocations: 622)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.2ms | Allocations: 3147)
+Completed 200 OK in 42ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 11360)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 11:27:23 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___245189411037696564_69913024237120 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 125)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1589)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 7081)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-11-08 11:27:38 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"4aYk95VY0Z0HaE9I/uTnlUWyAU2Y+Q5rLCefabF0AZUs56rVHJEg7nAdX/uk4U37xoaAhgivDtfa7OuUu3tH7A==", "user"=>{"email"=>"tsiory.rktmhnn@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tsiory.rktmhnn@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "tsiory.rktmhnn@gmail.com"], ["encrypted_password", "$2a$11$zU6bz4zOHphS3tOFkbw.Xuat1rN7dN2RgcmHEHIL60rbLSo1PBkIC"], ["created_at", "2019-11-08 08:27:39.103346"], ["updated_at", "2019-11-08 08:27:39.103346"]]
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (Duration: 5.9ms | Allocations: 171)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (Duration: 7.7ms | Allocations: 150)
+UserMailer#welcome_email: processed outbound mail in 55.5ms
+Delivered mail 5dc526fb38bdb_2e7334be9cc13642@tsiory-HPrdx.mail (12284.3ms)
+Date: Fri, 08 Nov 2019 11:27:39 +0300
+From: tsiory.rktmhnn@gmail.com
+To: tsiory.rktmhnn@gmail.com
+Message-ID: <5dc526fb38bdb_2e7334be9cc13642@tsiory-HPrdx.mail>
+Subject: Bienvenue chez nous !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5dc526fb33fb4_2e7334be9cc135a9";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5dc526fb33fb4_2e7334be9cc135a9
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+U2FsdXQgICBldCBiaWVudmVudWUgY2hleiBub3VzICENCj09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT0NCiANClR1IHQnZXMgaW5zY3JpdCBzdXIgZXZlbnRicml0ZS5tZyBlbiB1
+dGlsaXNhbnQgbCdlLW1haWwgc3VpdmFudCA6IHRzaW9yeS5ya3RtaG5uQGdt
+YWlsLmNvbS4NCiANClBvdXIgYWNjw6lkZXIgw6AgdG9uIGVzcGFjZSBjbGll
+bnQsIGNvbm5lY3RlLXRvaSB2aWEgOiBodHRwOi8vZXZlbnRicml0ZS5tZy9s
+b2dpbi4NCiANCsOAIHRyw6hzIHZpdGUgc3VyIGV2ZW50YnJpdGUubWcgIQ0K
+
+----==_mimepart_5dc526fb33fb4_2e7334be9cc135a9
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />=0D
+  </head>=0D
+  <body>=0D
+    <h1>Salut   et bienvenue chez nous !</h1>=0D
+    <p>=0D
+      Tu t'es inscrit sur eventbrite.mg en utilisant l'e-mail suivant : t=
+siory.rktmhnn@gmail.com.=0D
+    </p>=0D
+    <p>=0D
+      Pour acc=C3=A9der =C3=A0 ton espace client, connecte-toi via : http=
+://eventbrite.mg/login.=0D
+    </p>=0D
+    <p> =C3=80 tr=C3=A8s vite sur eventbrite.mg !=0D
+  </body>=0D
+</html>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5dc526fb33fb4_2e7334be9cc135a9--
+
+  [1m[35m (0.8ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 12754ms (ActiveRecord: 2.8ms | Allocations: 23066)
+
+
+  
+SocketError (getaddrinfo: Temporary failure in name resolution):
+  
+app/models/user.rb:15:in `welcome_send'
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started POST "/users" for 127.0.0.1 at 2019-11-08 11:29:28 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"4aYk95VY0Z0HaE9I/uTnlUWyAU2Y+Q5rLCefabF0AZUs56rVHJEg7nAdX/uk4U37xoaAhgivDtfa7OuUu3tH7A==", "user"=>{"email"=>"tsiory.rktmhnn@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tsiory.rktmhnn@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "tsiory.rktmhnn@gmail.com"], ["encrypted_password", "$2a$11$HD.5bjQY.ufNAqhRisdO8OzUBl7CMiJBz7FpPAn5v3vE9dv82LQHy"], ["created_at", "2019-11-08 08:29:29.177917"], ["updated_at", "2019-11-08 08:29:29.177917"]]
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 6)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (Duration: 0.1ms | Allocations: 4)
+UserMailer#welcome_email: processed outbound mail in 7.0ms
+Delivered mail 5dc527692f083_2e7334beae4138f4@tsiory-HPrdx.mail (16302.0ms)
+Date: Fri, 08 Nov 2019 11:29:29 +0300
+From: tsiory.rktmhnn@gmail.com
+To: tsiory.rktmhnn@gmail.com
+Message-ID: <5dc527692f083_2e7334beae4138f4@tsiory-HPrdx.mail>
+Subject: Bienvenue chez nous !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5dc527692e03b_2e7334beae413731";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5dc527692e03b_2e7334beae413731
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+U2FsdXQgICBldCBiaWVudmVudWUgY2hleiBub3VzICENCj09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT0NCiANClR1IHQnZXMgaW5zY3JpdCBzdXIgZXZlbnRicml0ZS5tZyBlbiB1
+dGlsaXNhbnQgbCdlLW1haWwgc3VpdmFudCA6IHRzaW9yeS5ya3RtaG5uQGdt
+YWlsLmNvbS4NCiANClBvdXIgYWNjw6lkZXIgw6AgdG9uIGVzcGFjZSBjbGll
+bnQsIGNvbm5lY3RlLXRvaSB2aWEgOiBodHRwOi8vZXZlbnRicml0ZS5tZy9s
+b2dpbi4NCiANCsOAIHRyw6hzIHZpdGUgc3VyIGV2ZW50YnJpdGUubWcgIQ0K
+
+----==_mimepart_5dc527692e03b_2e7334beae413731
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />=0D
+  </head>=0D
+  <body>=0D
+    <h1>Salut   et bienvenue chez nous !</h1>=0D
+    <p>=0D
+      Tu t'es inscrit sur eventbrite.mg en utilisant l'e-mail suivant : t=
+siory.rktmhnn@gmail.com.=0D
+    </p>=0D
+    <p>=0D
+      Pour acc=C3=A9der =C3=A0 ton espace client, connecte-toi via : http=
+://eventbrite.mg/login.=0D
+    </p>=0D
+    <p> =C3=80 tr=C3=A8s vite sur eventbrite.mg !=0D
+  </body>=0D
+</html>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5dc527692e03b_2e7334beae413731--
+
+  [1m[35m (20.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16583ms (ActiveRecord: 22.7ms | Allocations: 24347)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:29:45 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.6ms | Allocations: 5476)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2019-11-08 11:29:50 +0300
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.0ms | Allocations: 206)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2245)
+Completed 200 OK in 30ms (Views: 22.3ms | ActiveRecord: 1.4ms | Allocations: 8455)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 11:46:29 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dXwnyA1R2jGCHXV97hvzn/HlJxpCFdKUxLUnqTDw/xPUJP39/sUhmLALpemnTX0bMTJF99FUt7BK9YNrhzbpwA=="}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 1.3ms | Allocations: 2335)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:46:29 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 5834)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 11:46:39 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___245189411037696564_69913032211580 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 2.0ms | Allocations: 469)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 10.3ms | Allocations: 2247)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 8038)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 11:49:16 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___245189411037696564_69913032677140 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 573.7ms | Allocations: 191139)
+Completed 500 Internal Server Error in 580ms (ActiveRecord: 0.0ms | Allocations: 192974)
+
+
+  
+ActionView::Template::Error (undefined method `first_name_field' for #<ActionView::Helpers::FormBuilder:0x00007f2bcaf6ba10>):
+     7:         <%= devise_error_messages! %>
+     8:         <div class="form-group">
+     9:           <%= f.label :first_name, "Nom" %><br />
+    10:           <%= f.first_name_field :first_name, autofocus: true, autocomplete: "first_name", class: "form-control" %>
+    11:         </div>
+    12:         <div class="form-group">
+    13:           <%= f.label :last_name, "Prenom" %><br />
+  
+app/views/devise/registrations/new.html.erb:10
+app/views/devise/registrations/new.html.erb:5
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 11:49:38 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___245189411037696564_69913040215920 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 595.6ms | Allocations: 191187)
+Completed 500 Internal Server Error in 601ms (ActiveRecord: 0.0ms | Allocations: 193030)
+
+
+  
+ActionView::Template::Error (undefined method `name_field' for #<ActionView::Helpers::FormBuilder:0x00007f2bcbdd89b8>
+Did you mean?  number_field
+               range_field
+               time_field
+               date_field):
+     7:         <%= devise_error_messages! %>
+     8:         <div class="form-group">
+     9:           <%= f.label :first_name, "Nom" %><br />
+    10:           <%= f.name_field :first_name, autofocus: true, autocomplete: "first_name", class: "form-control" %>
+    11:         </div>
+    12:         <div class="form-group">
+    13:           <%= f.label :last_name, "Prenom" %><br />
+  
+app/views/devise/registrations/new.html.erb:10
+app/views/devise/registrations/new.html.erb:5
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 11:50:42 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___245189411037696564_69913027619700 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.9ms | Allocations: 468)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 150.2ms | Allocations: 4956)
+Completed 200 OK in 165ms (Views: 163.3ms | ActiveRecord: 0.0ms | Allocations: 11121)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 11:51:22 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___245189411037696564_69913023871860 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 580.2ms | Allocations: 191236)
+Completed 500 Internal Server Error in 585ms (ActiveRecord: 0.0ms | Allocations: 193071)
+
+
+  
+ActionView::Template::Error (undefined method `label_field' for #<ActionView::Helpers::FormBuilder:0x00007f2bc9e880b8>):
+    11:         </div>
+    12:         <div class="form-group">
+    13:           <%= f.label :last_name, "Prenom" %><br />
+    14:           <%= f.label_field :last_name, autofocus: true, autocomplete: "last_name", class: "form-control" %>
+    15:         </div>
+    16:         <div class="form-group">
+    17:           <%= f.label :email, "Email" %><br />
+  
+app/views/devise/registrations/new.html.erb:14
+app/views/devise/registrations/new.html.erb:5
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 11:51:46 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___245189411037696564_69913026665540 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 546.4ms | Allocations: 191277)
+Completed 500 Internal Server Error in 551ms (ActiveRecord: 0.0ms | Allocations: 193121)
+
+
+  
+ActionView::Template::Error (undefined method `field' for #<ActionView::Helpers::FormBuilder:0x00007f2bca4092f8>
+Did you mean?  fields
+               yield):
+    11:         </div>
+    12:         <div class="form-group">
+    13:           <%= f.label :last_name, "Prenom" %><br />
+    14:           <%= f.field :last_name, autofocus: true, autocomplete: "last_name", class: "form-control" %>
+    15:         </div>
+    16:         <div class="form-group">
+    17:           <%= f.label :email, "Email" %><br />
+  
+app/views/devise/registrations/new.html.erb:14
+app/views/devise/registrations/new.html.erb:5
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 11:56:17 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___245189411037696564_69913026865840 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 468)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 2254)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 8515)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-11-08 11:57:06 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"RQCxqJcMhxhomDh7oHnBnQKI/JYJqM9wg9wnwVjXtNlO5+xFhBh7LHZ2mkCxGR81PFi21dCmEkNSfpVz+IiBdg==", "user"=>{"first_name"=>"Baba", "last_name"=>"Koto", "email"=>"babakoto@yopmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :first_name, :last_name[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "babakoto@yopmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "babakoto@yopmail.com"], ["encrypted_password", "$2a$11$ow12u9j3k7K9au0YuwGcO.unHuCWJ40Pc8oTFZlxqJjmP8CxJeFo6"], ["created_at", "2019-11-08 08:57:06.476199"], ["updated_at", "2019-11-08 08:57:06.476199"]]
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (Duration: 0.8ms | Allocations: 160)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (Duration: 0.9ms | Allocations: 143)
+UserMailer#welcome_email: processed outbound mail in 10.1ms
+Delivered mail 5dc52de278223_2e7334be940140d@tsiory-HPrdx.mail (5977.4ms)
+Date: Fri, 08 Nov 2019 11:57:06 +0300
+From: tsiory.rktmhnn@gmail.com
+To: babakoto@yopmail.com
+Message-ID: <5dc52de278223_2e7334be940140d@tsiory-HPrdx.mail>
+Subject: Bienvenue chez nous !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5dc52de27732d_2e7334be94013928";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5dc52de27732d_2e7334be94013928
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+U2FsdXQgICBldCBiaWVudmVudWUgY2hleiBub3VzICENCj09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT0NCiANClR1IHQnZXMgaW5zY3JpdCBzdXIgZXZlbnRicml0ZS5tZyBlbiB1
+dGlsaXNhbnQgbCdlLW1haWwgc3VpdmFudCA6IGJhYmFrb3RvQHlvcG1haWwu
+Y29tLg0KIA0KUG91ciBhY2PDqWRlciDDoCB0b24gZXNwYWNlIGNsaWVudCwg
+Y29ubmVjdGUtdG9pIHZpYSA6IGh0dHA6Ly9ldmVudGJyaXRlLm1nL2xvZ2lu
+Lg0KIA0Kw4AgdHLDqHMgdml0ZSBzdXIgZXZlbnRicml0ZS5tZyAhDQo=
+
+----==_mimepart_5dc52de27732d_2e7334be94013928
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />=0D
+  </head>=0D
+  <body>=0D
+    <h1>Salut   et bienvenue chez nous !</h1>=0D
+    <p>=0D
+      Tu t'es inscrit sur eventbrite.mg en utilisant l'e-mail suivant : b=
+abakoto@yopmail.com.=0D
+    </p>=0D
+    <p>=0D
+      Pour acc=C3=A9der =C3=A0 ton espace client, connecte-toi via : http=
+://eventbrite.mg/login.=0D
+    </p>=0D
+    <p> =C3=80 tr=C3=A8s vite sur eventbrite.mg !=0D
+  </body>=0D
+</html>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5dc52de27732d_2e7334be94013928--
+
+  [1m[35m (24.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6267ms (ActiveRecord: 27.2ms | Allocations: 23008)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:57:12 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 81)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 1.0ms | Allocations: 6291)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 11:58:37 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 81)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.6ms | Allocations: 7737)
+
+
+  
+ActionView::Template::Error (undefined method `first_name' for nil:NilClass):
+    39:         <div class="nav-item dropdown">
+    40:         <% if user_signed_in? %>
+    41:         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    42:             <%= @user.first_name %> <%= @user.last_name %>
+    43:           </a>
+    44:           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    45:             <a rel="nofollow" data-method="delete" class="dropdown-item" href="/users/sign_out">#SignOut</a>
+  
+app/views/layouts/application.html.erb:42
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/" for 127.0.0.1 at 2019-11-08 12:03:07 +0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 641)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/static_pages_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2019-11-08 12:05:10 +0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4:in `index'
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 46ms (Views: 15.4ms | ActiveRecord: 7.7ms | Allocations: 13298)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 12:05:25 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lQfoHQgsZFNjim5JsrQRf89ZoO59e/du7wgfjTwR1+2e4LXwGziYZ31kzHKj1M/X8YnqraR1Kl0+qq0/nE7iQg=="}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 1.1ms | Allocations: 2628)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 12:05:25 +0300
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4:in `index'
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.4ms | Allocations: 5284)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-08 12:05:44 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 536)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1973)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 7861)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-08 12:05:52 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"Zejz8kVryCz4cJB5YnOMaiPet5S0aDtyGL4Cnvpn/9is780yeCnzY/BgRRHbqRRJp6LnewGaB+4IuTPngzbpvQ==", "user"=>{"email"=>"babakoto@yopmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "babakoto@yopmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 249ms (ActiveRecord: 0.8ms | Allocations: 6157)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 12:05:52 +0300
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4:in `index'
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 59ms (Views: 54.3ms | ActiveRecord: 1.0ms | Allocations: 6126)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 12:16:37 +0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"U3Rx7W1DA7mcm3E1ac9eO5FFTdt0nX1FOncy5jVGY6bTgYAlfDzp/wDMwayRJeOtpNNJn2FJVeuUAShtF44DTA=="}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.8ms | Allocations: 2281)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 12:16:37 +0300
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4:in `index'
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 84)
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 0.4ms | Allocations: 6534)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 12:16:40 +0300
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4:in `index'
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 14ms (Views: 10.0ms | ActiveRecord: 0.4ms | Allocations: 5296)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 12:16:44 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___245189411037696564_69913025244420 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 569.6ms | Allocations: 191141)
+Completed 500 Internal Server Error in 576ms (ActiveRecord: 0.0ms | Allocations: 192898)
+
+
+  
+ActionView::Template::Error (undefined method `string_field' for #<ActionView::Helpers::FormBuilder:0x00007f2bca15bc90>):
+     7:         <%= devise_error_messages! %>
+     8:         <div class="form-group">
+     9:           <%= f.label :first_name, "Nom" %><br />
+    10:           <%= f.string_field :first_name, autofocus: true, autocomplete: "first_name", class: "form-control" %>
+    11:         </div>
+    12:         <div class="form-group">
+    13:           <%= f.label :last_name, "Prenom" %><br />
+  
+app/views/devise/registrations/new.html.erb:10
+app/views/devise/registrations/new.html.erb:5
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (231.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "Eventbrite_Tsiory_development"[0m
+  [1m[35m (332.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "Eventbrite_Tsiory_test"[0m
+  [1m[35m (846.0ms)[0m  [1m[35mCREATE DATABASE "Eventbrite_Tsiory_development" ENCODING = 'unicode'[0m
+  [1m[35m (800.7ms)[0m  [1m[35mCREATE DATABASE "Eventbrite_Tsiory_test" ENCODING = 'unicode'[0m
+  [1m[35m (144.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (139.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1952451607192789710)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEvents (20191107081020)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (119.4ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "start_date" timestamp, "duration" integer, "title" character varying, "description" text, "price" integer, "location" character varying, "admin_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (79.2ms)[0m  [1m[35mCREATE  INDEX  "index_events_on_admin_id" ON "events"  ("admin_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191107081020"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAttendances (20191107081037)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (110.6ms)[0m  [1m[35mCREATE TABLE "attendances" ("id" bigserial primary key, "stripe_customer_id" character varying, "event_id" bigint, "customer_id" bigint, "admin_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (38.4ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_event_id" ON "attendances"  ("event_id")[0m
+  [1m[35m (68.0ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_customer_id" ON "attendances"  ("customer_id")[0m
+  [1m[35m (44.3ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_admin_id" ON "attendances"  ("admin_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191107081037"]]
+  [1m[35m (22.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddDeviseToUsers (20191107215734)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (35.9ms)[0m  [1m[35mALTER TABLE "users" ADD "description" text[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(1952451607192789710)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE DATABASE "Eventbrite_Tsiory_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE DATABASE "Eventbrite_Tsiory_test" ENCODING = 'unicode'[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-08 09:21:56.052096"], ["updated_at", "2019-11-08 09:21:56.052096"]]
+  [1m[35m (36.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (338.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "Eventbrite_Tsiory_development"[0m
+  [1m[35m (335.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "Eventbrite_Tsiory_test"[0m
+  [1m[35m (850.7ms)[0m  [1m[35mCREATE DATABASE "Eventbrite_Tsiory_development" ENCODING = 'unicode'[0m
+  [1m[35m (798.0ms)[0m  [1m[35mCREATE DATABASE "Eventbrite_Tsiory_test" ENCODING = 'unicode'[0m
+  [1m[35m (159.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (127.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1952451607192789710)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20191106215734)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "users" ADD "description" text[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(1952451607192789710)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1952451607192789710)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20191106215734)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (124.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "description" text, "first_name" character varying, "last_name" character varying, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp)[0m
+  [1m[35m (48.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (52.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191106215734"]]
+  [1m[35m (25.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateEvents (20191107081020)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (100.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "start_date" timestamp, "duration" integer, "title" character varying, "description" text, "price" integer, "location" character varying, "admin_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (49.9ms)[0m  [1m[35mCREATE  INDEX  "index_events_on_admin_id" ON "events"  ("admin_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191107081020"]]
+  [1m[35m (20.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAttendances (20191107081037)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (112.8ms)[0m  [1m[35mCREATE TABLE "attendances" ("id" bigserial primary key, "stripe_customer_id" character varying, "event_id" bigint, "customer_id" bigint, "admin_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (61.1ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_event_id" ON "attendances"  ("event_id")[0m
+  [1m[35m (48.7ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_customer_id" ON "attendances"  ("customer_id")[0m
+  [1m[35m (48.7ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_admin_id" ON "attendances"  ("admin_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191107081037"]]
+  [1m[35m (27.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-08 09:24:42.665942"], ["updated_at", "2019-11-08 09:24:42.665942"]]
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(1952451607192789710)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 12:25:15 +0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___2383033210299264448_70001394098820 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 1.9ms | Allocations: 537)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 146.1ms | Allocations: 180303)
+Completed 200 OK in 1611ms (Views: 1556.0ms | ActiveRecord: 8.3ms | Allocations: 1437887)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-11-08 12:26:06 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"8rNK2SIwTixYu1EpIdr+W28QApNceYuiXOjxKY1ISnvtheOQbzm/rOypOypUiBfvQngkd8goFXNN8mOAy6flWA==", "user"=>{"first_name"=>"Tabera", "last_name"=>"Simone", "email"=>"manolotsoadaniel@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :first_name, :last_name[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "manolotsoadaniel@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password") VALUES ($1, $2) RETURNING "id"[0m  [["email", "manolotsoadaniel@gmail.com"], ["encrypted_password", "$2a$11$Mllpzkg/uYD3axo8I4Q0C.BrGQSuNXnhBpgl7t/xmFjCnGmqU4deq"]]
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (Duration: 1.0ms | Allocations: 177)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (Duration: 0.8ms | Allocations: 150)
+UserMailer#welcome_email: processed outbound mail in 9.3ms
+Delivered mail 5dc534ae77bff_36972ecc56436629@tsiory-HPrdx.mail (8777.7ms)
+Date: Fri, 08 Nov 2019 12:26:06 +0300
+From: tsiory.rktmhnn@gmail.com
+To: manolotsoadaniel@gmail.com
+Message-ID: <5dc534ae77bff_36972ecc56436629@tsiory-HPrdx.mail>
+Subject: Bienvenue chez nous !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5dc534ae76af6_36972ecc564365c6";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5dc534ae76af6_36972ecc564365c6
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+U2FsdXQgICBldCBiaWVudmVudWUgY2hleiBub3VzICENCj09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT0NCiANClR1IHQnZXMgaW5zY3JpdCBzdXIgZXZlbnRicml0ZS5tZyBlbiB1
+dGlsaXNhbnQgbCdlLW1haWwgc3VpdmFudCA6IG1hbm9sb3Rzb2FkYW5pZWxA
+Z21haWwuY29tLg0KIA0KUG91ciBhY2PDqWRlciDDoCB0b24gZXNwYWNlIGNs
+aWVudCwgY29ubmVjdGUtdG9pIHZpYSA6IGh0dHA6Ly9ldmVudGJyaXRlLm1n
+L2xvZ2luLg0KIA0Kw4AgdHLDqHMgdml0ZSBzdXIgZXZlbnRicml0ZS5tZyAh
+DQo=
+
+----==_mimepart_5dc534ae76af6_36972ecc564365c6
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />=0D
+  </head>=0D
+  <body>=0D
+    <h1>Salut   et bienvenue chez nous !</h1>=0D
+    <p>=0D
+      Tu t'es inscrit sur eventbrite.mg en utilisant l'e-mail suivant : m=
+anolotsoadaniel@gmail.com.=0D
+    </p>=0D
+    <p>=0D
+      Pour acc=C3=A9der =C3=A0 ton espace client, connecte-toi via : http=
+://eventbrite.mg/login.=0D
+    </p>=0D
+    <p> =C3=80 tr=C3=A8s vite sur eventbrite.mg !=0D
+  </body>=0D
+</html>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5dc534ae76af6_36972ecc564365c6--
+
+  [1m[35m (24.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9077ms (ActiveRecord: 27.5ms | Allocations: 29981)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 12:26:15 +0300
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/static_pages_controller.rb:4:in `index'
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 84)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 20ms (Views: 15.4ms | ActiveRecord: 0.9ms | Allocations: 7077)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 12:27:23 +0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 662)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/static_pages_controller.rb:3:in `index'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5011.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "Eventbrite_Tsiory_development"[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (238.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "Eventbrite_Tsiory_development"[0m
+  [1m[35m (334.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "Eventbrite_Tsiory_test"[0m
+  [1m[35m (884.7ms)[0m  [1m[35mCREATE DATABASE "Eventbrite_Tsiory_development" ENCODING = 'unicode'[0m
+  [1m[35m (702.2ms)[0m  [1m[35mCREATE DATABASE "Eventbrite_Tsiory_test" ENCODING = 'unicode'[0m
+  [1m[35m (149.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (127.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1952451607192789710)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20191107080938)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (99.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "description" text, "first_name" character varying, "last_name" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191107080938"]]
+  [1m[35m (23.9ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateEvents (20191107081020)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (123.0ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "start_date" timestamp, "duration" integer, "title" character varying, "description" text, "price" integer, "location" character varying, "admin_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (47.9ms)[0m  [1m[35mCREATE  INDEX  "index_events_on_admin_id" ON "events"  ("admin_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191107081020"]]
+  [1m[35m (19.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateAttendances (20191107081037)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (118.4ms)[0m  [1m[35mCREATE TABLE "attendances" ("id" bigserial primary key, "stripe_customer_id" character varying, "event_id" bigint, "customer_id" bigint, "admin_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (55.9ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_event_id" ON "attendances"  ("event_id")[0m
+  [1m[35m (47.6ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_customer_id" ON "attendances"  ("customer_id")[0m
+  [1m[35m (49.0ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_admin_id" ON "attendances"  ("admin_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191107081037"]]
+  [1m[35m (24.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddDeviseToUsers (20191107215734)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_token" character varying[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_sent_at" timestamp[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "users" ADD "remember_created_at" timestamp[0m
+  [1m[35m (79.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (51.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35m (50.5ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_first_name" ON "users"  ("first_name")[0m
+  [1m[35m (61.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_last_name" ON "users"  ("last_name")[0m
+  [1m[35m (53.1ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_description" ON "users"  ("description")[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191107215734"]]
+  [1m[35m (25.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-08 11:00:08.533603"], ["updated_at", "2019-11-08 11:00:08.533603"]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1952451607192789710)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2019-11-08 14:00:45 +0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 205)
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 1651ms (Views: 1623.7ms | ActiveRecord: 9.3ms | Allocations: 1254393)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 14:00:54 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___3914897873332130032_70294328492440 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 2.2ms | Allocations: 536)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 143.9ms | Allocations: 180179)
+Completed 200 OK in 174ms (Views: 154.7ms | ActiveRecord: 0.0ms | Allocations: 192659)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-11-08 14:01:24 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"tlBkDzDPLDEa3Gjs8P2foQwZCXGYdJxIH8yuzdlOseOpZs1Gfcbdsa7OAu+Fr3YVIXEvlQwlApkO1jxkn6EewA==", "user"=>{"first_name"=>"Tabera", "last_name"=>"Simone", "email"=>"manolotsoadaniel@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "manolotsoadaniel@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "manolotsoadaniel@gmail.com"], ["encrypted_password", "$2a$11$HE4VqhdUMfNz/5jSVLefWu6u3Z..lS6CCSoyJ/scE73MIKh.SYdjS"], ["first_name", "Tabera"], ["last_name", "Simone"], ["created_at", "2019-11-08 11:01:24.854571"], ["updated_at", "2019-11-08 11:01:24.854571"]]
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (Duration: 0.9ms | Allocations: 174)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (Duration: 0.7ms | Allocations: 150)
+UserMailer#welcome_email: processed outbound mail in 9.4ms
+Delivered mail 5dc54b04d7069_3de5320dfac8558e@tsiory-HPrdx.mail (7924.4ms)
+Date: Fri, 08 Nov 2019 14:01:24 +0300
+From: tsiory.rktmhnn@gmail.com
+To: manolotsoadaniel@gmail.com
+Message-ID: <5dc54b04d7069_3de5320dfac8558e@tsiory-HPrdx.mail>
+Subject: Bienvenue chez nous !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5dc54b04d5c83_3de5320dfac854f8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5dc54b04d5c83_3de5320dfac854f8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+U2FsdXQgVGFiZXJhIFNpbW9uZSBldCBiaWVudmVudWUgY2hleiBub3VzICEN
+Cj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT0NCiANClR1IHQnZXMgaW5zY3JpdCBzdXIgZXZlbnRi
+cml0ZS5tZyBlbiB1dGlsaXNhbnQgbCdlLW1haWwgc3VpdmFudCA6IG1hbm9s
+b3Rzb2FkYW5pZWxAZ21haWwuY29tLg0KIA0KUG91ciBhY2PDqWRlciDDoCB0
+b24gZXNwYWNlIGNsaWVudCwgY29ubmVjdGUtdG9pIHZpYSA6IGh0dHA6Ly9l
+dmVudGJyaXRlLm1nL2xvZ2luLg0KIA0Kw4AgdHLDqHMgdml0ZSBzdXIgZXZl
+bnRicml0ZS5tZyAhDQo=
+
+----==_mimepart_5dc54b04d5c83_3de5320dfac854f8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />=0D
+  </head>=0D
+  <body>=0D
+    <h1>Salut Tabera Simone et bienvenue chez nous !</h1>=0D
+    <p>=0D
+      Tu t'es inscrit sur eventbrite.mg en utilisant l'e-mail suivant : m=
+anolotsoadaniel@gmail.com.=0D
+    </p>=0D
+    <p>=0D
+      Pour acc=C3=A9der =C3=A0 ton espace client, connecte-toi via : http=
+://eventbrite.mg/login.=0D
+    </p>=0D
+    <p> =C3=80 tr=C3=A8s vite sur eventbrite.mg !=0D
+  </body>=0D
+</html>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5dc54b04d5c83_3de5320dfac854f8--
+
+  [1m[35m (21.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8222ms (ActiveRecord: 25.5ms | Allocations: 29594)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 14:01:32 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.5ms | Allocations: 6539)
+
+
+  
+ActionView::Template::Error (undefined method `first_name' for nil:NilClass):
+    39:         <div class="nav-item dropdown">
+    40:         <% if user_signed_in? %>
+    41:         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    42:             <%= @user.first_name %> <%= @user.last_name %>
+    43:           </a>
+    44:           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    45:             <a rel="nofollow" data-method="delete" class="dropdown-item" href="/users/sign_out">#SignOut</a>
+  
+app/views/layouts/application.html.erb:42
+Started GET "/" for 127.0.0.1 at 2019-11-08 14:11:54 +0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 81)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 1.1ms | Allocations: 6839)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-08 14:12:14 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"r5qaiCUBNzh8vBr5krs3E9+yLm27DOicSN09hvfYKZSwrDPBaAjGuMiucPrn6d6n8toIiS9ddk1Zx68vsTeGtw=="}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 1.7ms | Allocations: 2953)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 14:12:14 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 4623)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 14:12:43 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___3914897873332130032_70294343885520 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 2.0ms | Allocations: 469)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 2391)
+Completed 200 OK in 77ms (Views: 75.0ms | ActiveRecord: 0.0ms | Allocations: 8238)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-11-08 14:13:57 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"b1fkGuMHLA8W7g/0q+I/SEb8JND/GrGj097txos95Oq22ULQXLqi8TRKOF2H2IwT6ESeRso5qy1GpKVJ807+bA==", "user"=>{"first_name"=>"Baba", "last_name"=>"Koto", "description"=>"mamamamammammamamamamamamamammaamam", "email"=>"ismaelrazafindramboly@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+[31mUnpermitted parameter: :description[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ismaelrazafindramboly@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "ismaelrazafindramboly@gmail.com"], ["encrypted_password", "$2a$11$kPM9Jr6eOZ9m9HWSh6UlsuTK/YzrW7bg5uy2dBANx6jnE4sUJL03u"], ["first_name", "Baba"], ["last_name", "Koto"], ["created_at", "2019-11-08 11:13:57.796016"], ["updated_at", "2019-11-08 11:13:57.796016"]]
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (Duration: 0.9ms | Allocations: 169)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (Duration: 0.7ms | Allocations: 143)
+UserMailer#welcome_email: processed outbound mail in 11.3ms
+Delivered mail 5dc54df5c715c_3de5320de9485773@tsiory-HPrdx.mail (9362.6ms)
+Date: Fri, 08 Nov 2019 14:13:57 +0300
+From: tsiory.rktmhnn@gmail.com
+To: ismaelrazafindramboly@gmail.com
+Message-ID: <5dc54df5c715c_3de5320de9485773@tsiory-HPrdx.mail>
+Subject: Bienvenue chez nous !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5dc54df5c578d_3de5320de948564e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5dc54df5c578d_3de5320de948564e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+U2FsdXQgQmFiYSBLb3RvIGV0IGJpZW52ZW51ZSBjaGV6IG5vdXMgIQ0KPT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PQ0KIA0KVHUgdCdlcyBpbnNjcml0IHN1ciBldmVudGJyaXRl
+Lm1nIGVuIHV0aWxpc2FudCBsJ2UtbWFpbCBzdWl2YW50IDogaXNtYWVscmF6
+YWZpbmRyYW1ib2x5QGdtYWlsLmNvbS4NCiANClBvdXIgYWNjw6lkZXIgw6Ag
+dG9uIGVzcGFjZSBjbGllbnQsIGNvbm5lY3RlLXRvaSB2aWEgOiBodHRwOi8v
+ZXZlbnRicml0ZS5tZy9sb2dpbi4NCiANCsOAIHRyw6hzIHZpdGUgc3VyIGV2
+ZW50YnJpdGUubWcgIQ0K
+
+----==_mimepart_5dc54df5c578d_3de5320de948564e
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />=0D
+  </head>=0D
+  <body>=0D
+    <h1>Salut Baba Koto et bienvenue chez nous !</h1>=0D
+    <p>=0D
+      Tu t'es inscrit sur eventbrite.mg en utilisant l'e-mail suivant : i=
+smaelrazafindramboly@gmail.com.=0D
+    </p>=0D
+    <p>=0D
+      Pour acc=C3=A9der =C3=A0 ton espace client, connecte-toi via : http=
+://eventbrite.mg/login.=0D
+    </p>=0D
+    <p> =C3=80 tr=C3=A8s vite sur eventbrite.mg !=0D
+  </body>=0D
+</html>=0D
+  </body>=0D
+</html>=0D
+
+----==_mimepart_5dc54df5c578d_3de5320de948564e--
+
+  [1m[35m (31.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9662ms (ActiveRecord: 33.2ms | Allocations: 23127)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 14:14:07 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.5ms | Allocations: 5473)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-08 14:15:32 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___3914897873332130032_70294343885520 at /home/paradox/Desktop/Eventbrite_Tsiory/app/views/devise/registrations/new.html.erb:7)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 80)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1404)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 6069)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-08 14:16:24 +0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:40
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.6ms | Allocations: 5451)
+
+
