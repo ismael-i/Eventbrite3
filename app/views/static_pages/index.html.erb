@@ -1,3 +1,40 @@
-<h1>StaticPages#index</h1>
-<p>Find me in app/views/static_pages/index.html.erb</p>
+<div class ="container">
+    <h1>List of events</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Tilte
+                    </th>
+                    <th>
+                        Location
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <%  @event.each do |events| %>
+                    <tr>
+                        <td>
+                            <%events.title%>
+                        </td>
+                        <td>
+                            <%events.location%>
+                        </td>
+                        <td>
+                            <%events.price%>
+                        </td>
+                        <td>
+                            <a href ="<%= event_path %>" class = "btn-btn-primary">Learn more</a>
+                        </td>
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>   
+</div>
+
 
